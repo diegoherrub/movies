@@ -1,4 +1,4 @@
-package edu.iesam.movies.extensions
+package edu.iesam.movies.app.extensions
 
 import android.widget.ImageView
 import com.bumptech.glide.Glide
