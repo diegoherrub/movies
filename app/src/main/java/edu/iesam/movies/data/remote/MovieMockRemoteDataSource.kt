@@ -5,10 +5,10 @@ import edu.iesam.movies.domain.Movie
 class MovieMockRemoteDataSource {
 
     private val movies = listOf(
-        Movie("1", "title1", "caratula1"),
-        Movie("2", "title2", "caratula2"),
-        Movie("3", "title3", "caratula3"),
-        Movie("4", "title4", "caratula4")
+        Movie("1", "title1", "https://pics.filmaffinity.com/the_sting-433653100-mmed.jpg"),
+        Movie("2", "title2", "https://pics.filmaffinity.com/the_sting-433653100-mmed.jpg"),
+        Movie("3", "title3", "https://pics.filmaffinity.com/the_sting-433653100-mmed.jpg"),
+        Movie("4", "title4", "https://pics.filmaffinity.com/the_sting-433653100-mmed.jpg")
     )
 
     fun getMovies(): List<Movie> {
